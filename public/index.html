@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"/>
+    <link rel="stylesheet" href="./style.css"/>
+    <title>BookList</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container main">
+        <h1>Add Book</h1>
+        <br>
+        <form id="book-form">
+            <div class="title">
+                <label for="title">Title</label>
+                <input type="text" id="title" placeholder="Black Beauty">
+            </div>
+            <div class="author">
+                <label for="author">Author</label>
+                <input class="input" type="text" id="author" placeholder="Anna Sewell">
+            </div>
+            <div class="isbn">
+                <label for="isbn">ISBN</label>
+                <input type="text" id="isbn" placeholder="1503251284">
+            </div>
+            <br>
+            <input type="submit" value="Submit" class="submit">
+        </form> 
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>ISBN</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="book-list"></tbody>
+        </table>
+    </div>
+    <footer>
+        <span>Books May Not Be Stored If You Have A Script Blocker Installed In Your Browser.</span>
+    </footer>
+    <script src="./app_es6.js"></script>
+    <script type="module" src="./books.js"></script>
+</body>
+</html>

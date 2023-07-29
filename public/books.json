@@ -1,0 +1,52 @@
+[
+    {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "isbn": "978-0743273565"
+    },
+    {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "isbn": "978-0061120084"
+    },
+    {
+        "title": "1984",
+        "author": "George Orwell",
+        "isbn": "978-0451524935"
+    },
+    {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "isbn": "978-0141439518"
+    },
+    {
+        "title": "The Lord of the Rings",
+        "author": "J.R.R. Tolkien",
+        "isbn": "978-0544003415"
+    },
+    {
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "author": "J.K. Rowling",
+        "isbn": "978-0590353427"
+    },
+    {
+        "title": "To Kill a Kingdom",
+        "author": "Alexandra Christo",
+        "isbn": "978-1250112682"
+    },
+    {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "isbn": "978-0316769488"
+    },
+    {
+        "title": "The Hunger Games",
+        "author": "Suzanne Collins",
+        "isbn": "978-0439023481"
+    },
+    {
+        "title": "The Da Vinci Code",
+        "author": "Dan Brown",
+        "isbn": "978-0307474278"
+    }
+]
